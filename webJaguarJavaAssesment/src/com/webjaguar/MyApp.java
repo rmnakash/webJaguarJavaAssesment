@@ -153,7 +153,7 @@ public class MyApp {
 		obj.getNewsFeed(1);
 		
 		// User 1 follows user 2.
-		obj.follow(1, 2);
+				obj.follow(1, 2);
 		
 		// User 2 posts a new message (id = 6).
 		obj.postMessage (2, 6);
